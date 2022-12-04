@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Added validations to the Toy model
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Updated the toys controller action to check the validity of our model when it is created, and respond appropriately
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Added the 'destroy' on the routes.rb file
